@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="interview.xsl"?>
+<interview><entry><topic/><question>Explain the concept of asynchronous programming and why it's important in JavaScript.</question><answer>kjnkj </answer><feedback>The answer "kjnkj" is completely inadequate. It demonstrates zero understanding of asynchronous programming or its importance in JavaScript. This response would be marked as a failing answer in an interview setting. The candidate needs to provide a clear explanation of what asynchronous programming is (non-blocking execution, callbacks/promises/async-await), and why it's crucial for maintaining responsiveness in single-threaded environments like the browser, preventing UI freezes.
+</feedback></entry><entry><topic>General knowledge</topic><question>What is the capital city of Australia?</question><answer>Melbourne</answer><feedback>Incorrect. The capital city of Australia is Canberra. Melbourne was the capital temporarily, but it's not currently the capital. Knowing capital cities is a basic element of general knowledge. Familiarize yourself with the capital cities of major countries.
+</feedback></entry><entry><topic>General knowledge</topic><question>What is the chemical symbol for gold?</question><answer>Au</answer><feedback>The answer "Au" is correct. It demonstrates basic knowledge of chemistry and the periodic table.
+
+Feedback: Excellent! "Au" is indeed the correct chemical symbol for gold, derived from the Latin word "aurum". Your answer is concise and accurate.
+</feedback></entry></interview>

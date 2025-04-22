@@ -58,7 +58,24 @@ function QuestionGenerator() {
       const questionObj = questions.find((q) => q.id === questionId);
       const answer = currentAnswers[questionId] || "";
       const res = await getFeedback(questionObj.text, answer);
-
+  
+      // Save feedback
+      try{
+      await fetch("http://localhost:3001/phpServer/save_feedback.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({
+          topic,
+          question: questionObj.text,
+          answer,
+          feedback: res,
+        }),
+      });
+    } catch (err) {
+      console.error("Error saving feedback:", err);
+    }
       setFeedbacks((prev) => ({
         ...prev,
         [questionId]: res,
@@ -70,6 +87,7 @@ function QuestionGenerator() {
       setLoadingQuestionId(null);
     }
   };
+  
 
   const formatFeedback = (feedback) => {
     const [summary, ...details] = feedback.split("**Feedback:**");
