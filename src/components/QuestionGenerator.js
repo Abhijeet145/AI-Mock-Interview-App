@@ -16,7 +16,7 @@ function QuestionGenerator() {
   async function getQuestions() {
     const response = await ai.models.generateContent({
       model: "gemini-2.0-flash",
-      contents: `Give me 5 questions on ${topic}. Give the response in array of object(id, text).`,
+      contents: `Give me 10 questions on ${topic}. Give the response in array of object(id, text).`,
     });
 
     return response.text;
