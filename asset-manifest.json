@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AI-Mock-Interview-App/static/css/main.ff8d6fcc.css",
-    "main.js": "/AI-Mock-Interview-App/static/js/main.1ec729f8.js",
+    "main.js": "/AI-Mock-Interview-App/static/js/main.438bf52b.js",
     "index.html": "/AI-Mock-Interview-App/index.html",
     "main.ff8d6fcc.css.map": "/AI-Mock-Interview-App/static/css/main.ff8d6fcc.css.map",
-    "main.1ec729f8.js.map": "/AI-Mock-Interview-App/static/js/main.1ec729f8.js.map"
+    "main.438bf52b.js.map": "/AI-Mock-Interview-App/static/js/main.438bf52b.js.map"
   },
   "entrypoints": [
     "static/css/main.ff8d6fcc.css",
-    "static/js/main.1ec729f8.js"
+    "static/js/main.438bf52b.js"
   ]
 }
